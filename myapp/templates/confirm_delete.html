@@ -4,7 +4,7 @@
     <title>Confirm Delete</title>
 </head>
 <body>
-    <h1>Are you sure you want to delete "{{ data.name }}"?</h1>
+    <h1>Are you sure you want to delete "{{ data.title }}"?</h1>
     <form method="post">
         {% csrf_token %}
         <button type="submit">Yes, delete it</button>
